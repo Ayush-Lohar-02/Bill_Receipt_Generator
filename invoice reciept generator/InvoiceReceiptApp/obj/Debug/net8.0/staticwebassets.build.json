@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QchOxmVUe0CQLUyVgd3SfeEQvvsFY7gTP4GjKUlP5Ro=",
+  "Source": "InvoiceReceiptApp",
+  "BasePath": "_content/InvoiceReceiptApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

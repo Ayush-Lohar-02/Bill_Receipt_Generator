@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\InvoiceController.cs" />
+    <Compile Include="Controllers\InvoiceController.cs" />
+    <Compile Remove="Models\Invoice.cs" />
+    <Compile Include="Models\Invoice.cs" />
+    <!-- Other source files if any -->
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DinkToPdf" Version="1.0.8" />
+    <PackageReference Include="itext7" Version="7.1.15" />
+    <PackageReference Include="TuesPechkin" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>
